@@ -1,7 +1,7 @@
 public class Palindrome {
     public boolean check(String sentence) {
 
-		Palindrome obj = new Palindrome();
+	Palindrome obj = new Palindrome();
     	sentence = sentence.replaceAll("[^a-zA-Z]", "");
         return((sentence.equalsIgnoreCase(obj.reverseOfString(sentence)))) ;
 
