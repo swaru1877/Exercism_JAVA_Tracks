@@ -1,9 +1,8 @@
 public class Palindrome {
     public boolean check(String sentence) {
 
-    Palindrome obj = new Palindrome();
-    sentence = obj.lowerCase(sentence.replaceAll("[^a-zA-Z]", ""));
-    return(compare(sentence,obj.reverseOfString(sentence))) ;
+    sentence = lowerCase(sentence.replaceAll("[^a-zA-Z]", ""));
+    return(compare(sentence,reverseOfString(sentence))) ;
 
 	}
 
